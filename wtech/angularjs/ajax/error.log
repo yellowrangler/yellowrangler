@@ -1,0 +1,22 @@
+2013-06-20 15:05:08 : DB error: Unknown MySQL server host 'turksandcaicos' (111) - Error doing mysql_connect to angular
+2013-06-20 15:05:08 : DB error: Unknown MySQL server host 'turksandcaicos' (111) - Error doing mysql_select_db to angular
+2013-06-20 15:05:08 : SQL error: Unknown MySQL server host 'turksandcaicos' (111) - Error doing select for contact data
+2013-06-20 15:05:08 : SQL: SELECT * FROM angContactsTBL
+2013-06-20 15:05:08 : DB error: Unknown MySQL server host 'turksandcaicos' (111) - Error doing mysql_connect to angular
+2013-06-20 15:05:08 : DB error: Unknown MySQL server host 'turksandcaicos' (111) - Error doing mysql_select_db to angular
+2013-06-20 15:05:08 : SQL error: Unknown MySQL server host 'turksandcaicos' (111) - Error doing select for contact data
+2013-06-20 15:05:08 : SQL: SELECT * FROM angContactsTBL
+2013-06-21 22:27:34 : SQL error: You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'Test Insert,data->addr,data->city,data->state,data->zip,data->phone,data->email)' at line 1 - Error doing insert for contact data
+2013-06-21 22:27:34 : SQL: INSERT INTO angContactsTBL VALUES (Fred Test Insert,data->addr,data->city,data->state,data->zip,data->phone,data->email)
+2013-06-21 22:29:18 : SQL error: You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'Test Insert,21 Rodeo Dr,Beverly Hills,CA,01982,781-555-1212,fred.insert@gmail.co' at line 1 - Error doing insert for contact data
+2013-06-21 22:29:18 : SQL: INSERT INTO angContactsTBL VALUES (Fred Test Insert,21 Rodeo Dr,Beverly Hills,CA,01982,781-555-1212,fred.insert@gmail.com)
+2013-06-21 22:31:04 : SQL error: Column count doesn't match value count at row 1 - Error doing insert for contact data
+2013-06-21 22:31:04 : SQL: INSERT INTO angContactsTBL VALUES ('Fred Test Insert','21 Rodeo Dr','Beverly Hills','CA','01982','781-555-1212','fred.insert@gmail.com')
+2013-06-21 23:00:21 : SQL error: Duplicate entry '0' for key 'PRIMARY' - Error doing insert for contact data
+2013-06-21 23:00:21 : SQL: INSERT INTO angContactsTBL (name, address, city, state, zip, phone, email) VALUES ('Test Two','2 test drive','oakland','ca','23456','111-222-3333','test@gmail.com')
+2013-06-21 23:01:44 : SQL error: Duplicate entry '0' for key 'PRIMARY' - Error doing insert for contact data
+2013-06-21 23:01:44 : SQL: INSERT INTO angContactsTBL (name, address, city, state, zip, phone, email) VALUES ('Test Two','2 test dr','oakland','ca','01944','761-909-2345','test@gmail.com')
+2013-06-21 23:03:31 : SQL error: Duplicate entry '0' for key 'PRIMARY' - Error doing insert for contact data
+2013-06-21 23:03:31 : SQL: INSERT INTO angContactsTBL (name, address, city, state, zip, phone, email) VALUES ('aaaaa','aaaaa','aaa','aa','aaaaa','aaaaaa','aaaaaaaa')
+2013-06-21 23:07:30 : SQL error: Duplicate entry '0' for key 'PRIMARY' - Error doing insert for contact data
+2013-06-21 23:07:30 : SQL: INSERT INTO angContactsTBL (name, address, city, state, zip, phone, email) VALUES ('Test Two','2 test dr','oakland','ca','01966','999-222-3333','test@gmail.com')

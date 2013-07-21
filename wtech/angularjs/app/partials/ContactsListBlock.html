@@ -1,0 +1,26 @@
+<div class="container">
+    <header>
+        <h3>Contacts List Cards</h3>
+    </header>
+
+    <div class="row cardContainer">
+        <div class="span3 card" data-ng-repeat="contact in contacts">
+            <button class="btn close cardClose" data-ng-click="deleteContact(contact.name)">&times;</button>
+            <div class="cardHeader">{{contact.name}}</div>
+            <div class="cardBody">
+                {{contact.addr}}
+                <br />
+                {{contact.city}} {{contact.state}} {{contact.zip}}
+                <br />
+                {{contact.phone}} {{contact.email}} 
+            </div>
+        </div>
+    </div>
+    
+    <br />
+    <div class="row-fluid">
+    <div class="span2"><a class="btn btn-small btn-primary" href="#/addcontact">Add Contact</a></div> 
+    <div class="span2"><a class="btn btn-small btn-success" href="#/">Table View</a></div>
+    </div>
+    
+</div>

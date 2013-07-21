@@ -1,0 +1,32 @@
+﻿<div class="container">
+    <header>
+        <h3>Add Contact</h3>
+    </header>
+
+    <div class="controls">
+        <input class="span4" data-ng-model="newContacts.name" type="text" placeholder="Name">
+    </div>
+
+    <div class="controls controls-row">
+        <input class="span4" data-ng-model="newContacts.addr" type="text" placeholder="Address">
+    </div>
+
+    <div class="controls controls-row">
+        <input class="span2" data-ng-model="newContacts.city" type="text" placeholder="City">
+        <input class="span1" data-ng-model="newContacts.state" type="text" placeholder="State">
+        <input class="span1" data-ng-model="newContacts.zip" type="text" placeholder="Zip">
+    </div>
+
+     <div class="controls controls-row">
+        <input class="span2" data-ng-model="newContacts.phone" type="text" placeholder="Phone number">
+        <input class="span2" data-ng-model="newContacts.email" type="text" placeholder="Email Address">
+    </div>
+
+    <div class="controls controls-row">
+        <button id="submitContact" class="span2 btn btn-small btn-primary" type="button" 
+            data-ng-disabled="!newContacts.name || !newContacts.addr || !newContacts.state || !newContacts.zip || !newContacts.phone || !newContacts.email" 
+            data-ng-click="insertContact()">Add</button>
+
+        <div class="span1"><a class="btn btn-small btn-primary" href="#/">Cancel</a></div>
+    </div>    
+</div>
