@@ -12,12 +12,13 @@
 $(document).ready(function() {
     $('.imgpointer').click(function() {
         var img = new Image();
-        img.src = this.id;
+        // img.src = this.id;
+        img.src = this.src;
         // var img = document.getElementById(this.id); 
-        var width = img.clientWidth;
-        var height = img.clientHeight;
+        var width = img.width;
+        var height = img.height;
         var imageurl = "app/ajax/showimages.php?image="+this.src;
-      PopUP(imageurl, 'image', height, width, 0);
+        PopUP(imageurl, 'image', height, width, 0);
     }); 
 });
 
