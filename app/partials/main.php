@@ -1,7 +1,7 @@
 
 <div class="row-fluid" style="padding-left:75px;padding-top:135px;" >
-<div class="span7">
-<div id="openingRemarks" style="display:none;float:left;width:60%;padding-right:15px;"> 
+<div class="span6">
+<div id="openingRemarks" style="display:none;float:left;padding-right:15px;"> 
 <p>I built this web site to have fun and share some of the things that I enjoy doing. Those things are in no particular order:</p>
 <ul>
   <li><a class="anchorList" href="#/wtech">Web Technology</a></li>
@@ -13,7 +13,7 @@
 </div>
 </div> <!-- end of span -->
 
-<div class="span5" style="padding-left:10px;padding-top:15px;padding-bottom:15px;background-color:#FFFFF6;">
+<div class="span6" style="padding-left:10px;padding-top:15px;padding-bottom:15px;background-color:#FFFFF6;">
 <table width="85%" style="word-wrap: break-word;">
   <tr>
     <td valign="top" align="left">

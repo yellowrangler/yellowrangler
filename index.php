@@ -17,9 +17,9 @@
 <body>
 <div class="navbar navbar-fixed-top">
     <div class="navbar-inner">
-        <div style="padding-left:75px;" class="container">
+        <div class="container">
             <a class="brand " href="#/">
-                <img src="img/yellowranglercartoon.png" alt="logo"> <span id="ywTitle" class="bodyFont" style="padding-left:45px;letter-spacing:2px;font-size:35px;" ></span>
+                <img src="img/yellowranglercartoon.png" alt="logo"> <span id="ywTitle" class="bodyFont" style="padding-left:45px;letter-spacing:12px;font-size:35px;" ></span>
             </a>
         </div>
     </div>
