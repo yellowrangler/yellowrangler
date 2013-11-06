@@ -90,7 +90,7 @@
         },
         {
             title: 'jQuery spinner widget', 
-            msg: angularjsMsgStr,
+            msg: spinnerMsgStr,
             tag: 'spinner', 
             demolink: spinnerDemoStr,
             codelink: spinnerCodeStr, 
