@@ -46,5 +46,5 @@ A little collection of work that I have contributed to.
 </div> <!-- end of displayarea -->
 
 <div style="padding-left:80px;padding-top:35px;padding-bottom:75px;position:relative;">
-Support for my <span style="color:maroon;font-weight:bold;" >SendPicClik</span> iPhone app can be found <a style="text-decoration:none;" href="#/sendpicclip"  id="sendpicclicksupport">here</a> 
+Support for my <span style="color:maroon;font-weight:bold;" >SendPicClick</span> iPhone app can be found <a style="text-decoration:none;" href="#/sendpicclip"  id="sendpicclicksupport">here</a> 
 </div>
