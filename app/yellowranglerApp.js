@@ -1,4 +1,4 @@
-var yellowranglerApp = angular.module ('yellowranglerApp', []);
+var yellowranglerApp = angular.module ('yellowranglerApp', ['ngRoute']);
 
 
 // define routes for app
